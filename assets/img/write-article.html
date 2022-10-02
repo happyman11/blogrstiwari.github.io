@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://editor.analyticsvidhya.com/write-article?article_id=31083 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<link rel="icon" id="favicon" type="image/x-icon" href="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg">
+<link rel="apple-touch-icon" href="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg">
+
+<link rel="stylesheet" href="./write-article_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./write-article_files/style.css">
+<link href="./write-article_files/css" rel="stylesheet">
+<link rel="stylesheet" href="./write-article_files/font-awesome.min.css">
+<script type="text/javascript" async="" src="./write-article_files/js"></script><script src="./write-article_files/460122458602021" async=""></script><script async="" src="./write-article_files/fbevents.js"></script><script type="text/javascript" async="" src="./write-article_files/analytics.js"></script><script type="text/javascript" async="" src="./write-article_files/insight.min.js"></script><script type="text/javascript" async="" src="./write-article_files/f.txt"></script><script async="" src="./write-article_files/gtm.js"></script><script src="./write-article_files/jquery.min.js"></script>
+<script src="./write-article_files/popper.min.js"></script>
+<script src="./write-article_files/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="./write-article_files/medium-editor.min.css">
+<link rel="stylesheet" href="./write-article_files/default.css">
+<link rel="stylesheet" href="./write-article_files/medium-editor-insert-plugin.min.css">
+<link rel="stylesheet" href="./write-article_files/medium-editor-tables.min.css">
+
+
+<script src="./write-article_files/medium-editor.js"></script>
+<script src="./write-article_files/handlebars.runtime.min.js"></script>
+<script src="./write-article_files/jquery-sortable-min.js"></script>
+<script src="./write-article_files/jquery.ui.widget.js"></script>
+<script src="./write-article_files/jquery.iframe-transport.js"></script>
+<script src="./write-article_files/jquery.fileupload.js"></script>
+<script src="./write-article_files/medium-editor-insert-plugin.js"></script>
+<script src="./write-article_files/medium-editor-tables.min.js"></script>
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+     })(window,document,'script','dataLayer','GTM-MPSM42V');</script>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPSM42V"
+     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<script>
+     (function(h,o,t,j,a,r){
+         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+         h._hjSettings={hjid:2712749,hjsv:6};
+         a=o.getElementsByTagName('head')[0];
+         r=o.createElement('script');r.async=1;
+         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+         a.appendChild(r);
+     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+     </script><script async="" src="./write-article_files/hotjar-2712749.js"></script>
+<meta http-equiv="origin-trial" content="A7bG5hJ4XpMV5a3V1wwAR0PalkFSxLOZeL9D/YBYdupYUIgUgGhfVJ1zBFOqGybb7gRhswfJ+AmO7S2rNK2IOwkAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="./write-article_files/f(1).txt"></script><script async="" src="./write-article_files/modules.f4179535429bf14e77ee.js" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head>
+<body>
+
+<header>
+<div class="container">
+<div class="row">
+<nav class="navbar navbar-expand-lg">
+<a class="navbar-brand" href="https://editor.analyticsvidhya.com/write-article?article_id=31083#">
+<img src="./write-article_files/av-logo-svg.svg" alt="logo">
+</a>
+
+<div class="dropdown ml-auto">
+<i>ravi_shekhar</i>
+<span id="dropdownLoginMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<img src="./write-article_files/zG8E8JMhTASR_rs8-cGtzw.jpg" alt="profile icon">
+</span>
+<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLoginMenu">
+<a class="dropdown-item" href="https://id.analyticsvidhya.com/accounts/profile/" target="_blank">My Profile</a>
+<a class="dropdown-item" href="https://editor.analyticsvidhya.com/write-article?article_id=31083#">Author</a>
+<a class="dropdown-item" href="https://editor.analyticsvidhya.com/logout">Logout</a>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section class="comman-style av-editor-content pb-2">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 nav-tabs">
+<div class="row">
+<div class="col-xs-8 col-md-8">
+<ul class="nav w-100">
+<li class="nav-item">
+<a class="nav-link" href="https://editor.analyticsvidhya.com/index">My Articles</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://editor.analyticsvidhya.com/email-to-editor">Email to Moderator</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://editor.analyticsvidhya.com/guideline">Article Guidelines</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://editor.analyticsvidhya.com/stats">Stats</a>
+</li>
+</ul>
+</div>
+<div class="col-xs-4 col-md-4">
+<div class="float-right">
+<a target="_blank" href="https://www.analyticsvidhya.com/creators-club/?utm_source=editor&amp;utm_medium=navbar%20target=" _blank"="" id="creators-club-btn"><button class="btn av-btn av-btn-outline">Creators Club</button></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script>
+  $(document).ready(function($){
+      var url = window.location.href;
+      var res = url.replace('https://editor.analyticsvidhya.com/', '');
+      $('.nav li a[href="'+res+'"]').addClass('active');
+  });
+  </script>
+<script src="./write-article_files/Init.js"></script>
+<script>
+    //   $(function () {
+    //     $('[data-toggle="tooltip"]').tooltip()
+    //   })
+    </script>
+<style>
+  @keyframes shadowPulse {
+    0% {
+      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    }
+  }
+  .medium-editor-insert-plugin .medium-insert-buttons button{
+    background: #8dc26f;
+    color: #fff;
+    border: solid 1px #8dc26f;
+    line-height: 31px;
+  }
+  .shadow-pulse {
+    animation-name: shadowPulse;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  .dark-highlite {
+    background-color: rgb(3, 204, 110) !important;
+  }
+
+  .image-icon {
+    width: 30px;
+  }
+
+  #fileinput {
+    display: none;
+  }
+
+  #editor {
+    min-height: 400px;
+    margin-left: 50px;
+  }
+
+  #imageUpload {
+    display: inline-block;
+    width: 20px;
+    margin-left: 5px;
+  }
+
+  #imageUpload img {
+    width: 100%;
+  }
+
+  #comments {
+    position: absolute;
+  }
+
+  .card-link {
+    cursor: pointer;
+  }
+
+  .comment .list-group {
+    font-size: 14px;
+    margin-top: 19px;
+    display: none;
+  }
+
+  .comment .replies {
+    display: none;
+  }
+
+  .user {
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  .pro-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+
+  .pro-pic img {
+    width: 100%;
+  }
+
+  .stamp {
+    padding-left: 7px;
+    line-height: 17px;
+    padding-top: 1px;
+  }
+
+  .stamp span {
+    display: block;
+  }
+
+  .resolve-comment {
+    margin-left: 40px;
+  }
+
+  .resolve-comment button,
+  .reply-form button {
+    padding: 3px 11px;
+    font-size: 0.8rem;
+  }
+
+  .reply-form input {
+    font-size: 0.8rem;
+  }
+
+  .side-toolbar-btn {
+    -webkit-transition: -webkit-all 1s ease;
+    transition: all 400ms ease-in-out;
+  }
+
+  .side-toolbar-btn:after {
+    content: '+';
+  }
+
+  .side-toolbar-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid rgb(167, 166, 166);
+    line-height: 30px;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 10px #c3c3c3;
+    float: right;
+  }
+
+  .side-toolbar {
+    list-style: none;
+    display: none;
+    float: right;
+  }
+
+  .side-toolbar.open {
+    transform: scaleX(100px);
+  }
+
+  .side-toolbar-btn.active {
+    transform: rotate(45deg);
+  }
+
+  .side-toolbar li {
+    width: 30px;
+    height: 30px;
+    margin-top: 0.5rem;
+    border: 1px solid rgb(167, 166, 166);
+    line-height: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px #c3c3c3;
+  }
+
+  .side-toolbar.open li {
+    width: 30px;
+  }
+
+  #submitForRevision:disabled {
+      background: #aaa;
+    border-color: #aaa;
+  }
+
+  .cross{
+    width: 20px;
+
+    height: 20px;
+
+    background-color:#cecece;
+
+    border-radius: 50px;
+
+    display: inline-block;
+
+  }
+</style>
+<section class="comman-style av-editor-content pt-0">
+<div class="container">
+<div class="row">
+<div class="col-lg-8 col-md-12 col-sm-12">
+<div class="card height-100">
+<div class="card-header">
+<div class="float-right">
+<button type="submit" class="btn av-btn" id="saveDraft">Save Draft</button>
+<a href="https://editor.analyticsvidhya.com/preview/index?article_id=31083" target="_blank" id="preview-btn"><button type="submit" class="btn av-btn av-btn-outline">Preview</button></a>
+</div>
+</div>
+<div class="card-body">
+<div class="card-body-title">
+
+<textarea type="text" class="form-input mt-2" placeholder="Add title*" id="articleTitle"></textarea>
+<div class="av-card-btn-group">
+
+</div>
+</div>
+<div class="card-body-content">
+
+<div id="editor" class="editable medium-editor-element medium-editor-insert-plugin" contenteditable="true" spellcheck="true" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="1" medium-editor-index="1c4c463e-fd6b-0bc1-c2b2-cbbe6133cc67" data-placeholder="Type your text" data-medium-focused="true"><p class="medium-insert-active"><br></p><div class="medium-insert-buttons" contenteditable="false" style="left: 4px; top: 262.797px;">
+    <button class="medium-insert-buttons-show" type="button"><span>+</span></button>
+    <ul class="medium-insert-buttons-addons" style="display: none">
+            <li><button data-addon="images" data-action="add" class="medium-insert-action" type="button"><span class="fa fa-camera"></span></button></li>
+            <li><button data-addon="embeds" data-action="add" class="medium-insert-action" type="button"><span class="fa fa-code"></span></button></li>
+    </ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-12 col-sm-12">
+<p><strong>A few reminders before submitting your draft:</strong>
+</p><p>
+</p><ol>
+<li> Please refer to the Article Guidelines Tab for detailed guidelines and help on using the Editor platform if you are using it for the first time</li>
+<li> Please ensure that the article is atleast 950 - 1000 words.</li>
+<li> Please use a spelling and Grammar check tool like Grammarly to check your spelling and grammar.</li>
+<li> Please use the 'Code' option in the toolbar to write your code instead of adding screenshots of the code. You can use screenshots to show the outputs.</li>
+<li> It is mandatory to add the source for every image used in the article. "Google Images" is not an acceptable source - please provide the original website link.</li>
+<li> We have a strict policy against plagiarism – we cannot accept nor publish any article found to have plagiarised content. You can use: <a href="https://smallseotools.com/plagiarism-checker-api/" rel="nofollow" target="_blank">https://smallseotools.com/plagiarism-checker-api/</a> to check if you article is plagiarized.</li>
+</ol>
+<p></p>
+<div id="comments" class="comment-card"></div>
+</div>
+</div>
+</div>
+</section>
+<div class="modal" tabindex="-1" role="dialog" id="commentModal">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Add Comment</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">×</span>
+</button>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group">
+<textarea type="text" class="form-control" id="commentInput" placeholder="Enter comment"></textarea>
+</div>
+</form>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+<button type="button" class="btn btn-primary addComment">Save changes</button>
+</div>
+</div>
+</div>
+</div>
+<div role="polite" aria-live="assertive" aria-atomic="true" class="toast fade hide" data-autohide="false" style="position: fixed;  top: 180px; left: 0; /*bottom: 0; right: 0;*/" data-delay="500">
+
+<div class="toast-body">
+Draft Saved!
+</div>
+</div>
+<script src="./write-article_files/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+<script>
+  var globalSelectionState;
+  var article_id;
+  var article_status;
+
+  function getQueryStringValue (key) {
+    return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
+  }
+
+  function saveDraft() {
+    //var value = editor.serialize();
+    //value = value.editor.value;
+    //var content = editor.getContent();
+    var allContents = editor.serialize();
+    var content = allContents["editor"].value;
+    var title = $('#articleTitle').val();
+    if ((title && title.length !==0)  || (content && content.length !==0))
+    {
+    if (!title) {
+      title = 'No Title';
+    }
+    if (article_id) {
+      data = {
+        article_title: title,
+        article_desc: content,
+        article_id: article_id
+      }
+    } else {
+      data = {
+        article_title: title,
+        article_desc: content
+      }
+    }
+    $.ajax({
+      url: "https://editor.analyticsvidhya.com/" + "save-draft.php",
+      method: 'POST',
+      data: data,
+      success: function(data) {
+        $('.toast').toast('show');
+        if (!article_id) {
+            document.location.search = `article_id=${data.article_id}`
+        }
+        article_id = data.article_id;
+      },
+    }).done(function (data) {
+      //console.log("draft saved: ", data);
+    })
+  }
+}
+
+  function submitForRevision() {
+    var value = editor.serialize();
+    value = value.editor.value;
+    var title = $('#articleTitle').val();
+    if (!title) {
+      title = 'No Title'
+    }
+    if (article_id) {
+      data = {
+        article_title: title,
+        article_desc: value,
+        article_id: article_id
+      }
+    } else {
+      data = {
+        article_title: title,
+        article_desc: value
+      }
+    }
+    $.ajax({
+      url: "https://editor.analyticsvidhya.com/" + "submit-for-revision.php",
+      method: 'POST',
+      data: data,
+      success: function(data) {
+        $('.toast').toast('show');
+        article_id = data.article_id;
+        // $('#submitForRevision').prop('disabled', true);
+        $('.show-reply-form').hide();
+      },
+
+    }).done(function (data) {
+      //console.log("draft saved: ", data);
+    })
+  }
+
+  function getArticle(article_id) {
+    $.ajax({
+      url: "https://editor.analyticsvidhya.com/" + "get-article-data.php",
+      data: { article_id: article_id },
+      success: function (data) {
+          //$('#featured-image').html('<img src="'+ data.featured_image +'" width="100px">');
+        editor.setContent(data.article_desc);
+        $('#articleTitle').val(data.article_title);
+        if (data.review == 2 && 2 == 3) {
+            $('#submitForRevision').prop('disabled', true);
+            $('#submitForRevision').val('In Revision');
+            $('.show-reply-form').hide();
+            article_status = data.review;
+        }
+        if(2 == 2) {
+            editor.subscribe('editableInput', MediumEditor.util.throttle(saveDraft, 5000));
+        }
+        getCommentsFromServer(article_id);
+        $('.editable').mediumInsert({
+          editor: editor,
+          addons: {
+              images: {
+                  captions: true,
+                  preview: true,
+
+                  fileUploadOptions: {
+                      url: "https://editor.analyticsvidhya.com/" + "upload-image.php",
+                      acceptFileTypes: /(\.|\/)(gif|jpe?g|png|svg)$/i
+                //  }
+             },
+              styles: {
+              wide: {
+                  label: '',
+              },
+              left: {
+                  label: ''
+              },
+              right: {
+                  label: ''
+              },
+              grid: {
+                  label: ''
+              }
+          },
+          messages: {
+                acceptFileTypesError: 'This file is not in a supported format',
+                maxFileSizeError: 'This file is too big: '
+            },
+        },
+      embeds: {
+                  captions: true,
+                  label: '<span class="fa fa-code"></span>'
+              },
+          }
+        });
+    }
+  })
+}
+
+  function postCommentToServer(comment) {
+    $.ajax({
+      url: "https://editor.analyticsvidhya.com/" + "add-editor-comment.php",
+      method: 'POST',
+      data: comment,
+      success: function (data) {
+        $('#commentInput').val('');
+        $('#commentModal').modal('hide');
+        //console.log("success", data.data);
+        appendCommentHTML(data.data);
+      },
+      error: function (err) {
+        console.log(err);
+      }
+    })
+  }
+
+  function resolveComment(comment) {
+    $.ajax({
+      url: "https://editor.analyticsvidhya.com/" + "resolve-comment.php",
+      method: 'POST',
+      data: {
+          comment_id: comment
+      },
+      success: function (data) {
+        $('#comment' + comment + ' .show-reply-form').hide();
+        $('#comment' + comment + ' .resolve-comment').text('Resolved');
+        $('#comment' + comment + ' .resolve-comment').prop('disabled', true)
+      },
+      error: function (err) {
+        console.log(err);
+      }
+    })
+  }
+
+  function postReplyToServer(comment) {
+    $.ajax({
+      url: "https://editor.analyticsvidhya.com/" + "add-editor-reply.php",
+      method: 'POST',
+      data: comment,
+      success: function (data) {
+        addReply(data.data, data.data.comment_id);
+        $('#comment' + data.data.comment_id).children('.replies').show('fast');
+        $('#replyinput' + data.data.comment_id).val('');
+      },
+      error: function (err) {
+        console.log(err);
+      }
+    })
+  }
+
+  function getCommentsFromServer(article_id) {
+    $.ajax({
+      url: "https://editor.analyticsvidhya.com/" + "editor-comments.php",
+      data: { article_id: article_id },
+      success: function(data) {
+        //console.log("comments received", data);
+        listComments(data);
+      }
+    })
+  }
+
+  function getSelectionPostion(selection) {
+    editor.stopSelectionUpdates();
+    editor.importSelection(selection);
+    var selectionele = editor.getSelectedParentElement();
+    if (selectionele) {
+      return selectionele.offsetTop;
+    }
+    var selection = document.getSelection();
+    var range = selection.getRangeAt(0);
+    var span = document.createElement('span');
+    var id = 'marker' + new Date().toISOString();
+    span.id = id;
+    range.insertNode(span);
+    var selectionEle = document.getElementById(id);
+    var top = selectionEle.offsetTop;
+    selectionEle.parentNode.removeChild(selectionEle);
+    editor.startSelectionUpdates();
+    return top;
+  }
+
+  function getPositionForComment(commentId) {
+    var span = $('#spancomment' + commentId);
+    return span.position().top;
+  }
+
+  function addAttributesInCommentSpan(comment) {
+    if ($('span#spancomment' + comment.comment_id)[0]) {
+      console.log('here')
+      return;
+    }
+    editor.stopSelectionUpdates();
+    editor.saveSelection();
+    editor.importSelection({
+      start: comment.start_index,
+      end: comment.end_index
+    });
+    document.execCommand('backColor', null, '#78fbbe');
+    var span = editor.getSelectedParentElement();
+    span.classList = ['comment-highlite'];
+    span.id = 'spancomment' + comment.comment_id;
+    span.setAttribute('data-commentid', comment.comment_id);
+  }
+
+  function addReply(reply, commentId) {
+      if (reply.user_id == 307) {
+        user_image = "https://av-identity.s3.amazonaws.com/users/user/zG8E8JMhTASR_rs8-cGtzw.jpg";
+      }
+      else {
+        user_image = "images/profile.jpg";
+      }
+
+    $('#comment' + commentId + ' .replies').append(`
+      <div class="user-icon">
+        <img src="${user_image}" alt="img"/>
+        <div class="user-details">
+          <h6>${reply.username}</h6>
+          <small>${reply.reply_date}</small>
+          <p>${reply.reply}</p>
+        </div>
+      </div>`
+    );
+  }
+
+  function appendCommentHTML(comment) {
+    editor.stopSelectionUpdates();
+    // var selectionPosition = getSelectionPostion({
+    //   start: comment.start_index,
+    //   end: comment.end_index
+    // });
+    editor.importSelection({
+      start: comment.start_index,
+      end: comment.end_index
+    });
+
+    let resolvereplyhtml = '';
+
+    if (comment.resolve) {
+        resolvereplyhtml = `
+                          <li>
+
+                            <button class="btn comment-btn resolve-comment" data-id="${comment.comment_id}" disabled>
+                              Resolved
+                            </button>
+                          </li>`
+    } else {
+        resolvereplyhtml = `<li>
+                            <button class="btn comment-btn show-reply-form" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseComment" data-id="${comment.comment_id}" >
+                              Reply
+                            </button>
+                          </li>
+                          <li>
+
+                            <button class="btn comment-btn resolve-comment" data-id="${comment.comment_id}" >
+                              Resolve
+                            </button>
+                          </li>`
+    }
+
+if (comment.user_id == 307) {
+        user_image = "https://av-identity.s3.amazonaws.com/users/user/zG8E8JMhTASR_rs8-cGtzw.jpg";
+      }
+      else {
+        user_image = "images/profile.jpg";
+      }
+
+    var html = `<div class="card comment" id="comment${comment.comment_id}" data-id="${comment.comment_id}">
+                  <div class="card-header">
+                    <div class="user-icon">
+                      <img src="${user_image}" alt="img"/>
+                      <div class="user-details">
+                        <h6>${comment.username}</h6>
+                        <small>${comment.comment_date} IST</small>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p>${comment.comment_desc}</p>
+                    <div class="comment-divider"></div>
+                      <div class="btns">
+                        <ul class="btn-ul">
+                          <li>
+                            <button class="btn comment-btn show-replies" data-id="${comment.comment_id}">
+                              Replies
+                            </button>
+                          </li>
+                          ${resolvereplyhtml}
+                        </ul>
+                      </div>
+                      <div class="comment-box">
+                        <div id="demo${comment.comment_id}" class="collapse collapseComment">
+                          <div class="user-icon">
+                            <img src="${user_image}" alt="img"/>
+                            <div class="form-group user-details">
+                              <textarea class="form-control" rows="3" placeholder="Reply" id="replyinput${comment.comment_id}" ></textarea>
+                              <button class="btn av-btn mt-3 submit-reply px-3" data-id="${comment.comment_id}">Comment</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comment-divider"></div>
+                      </div>
+                      <div class="replies card-body">
+                        <h6 class="mb-3 mt-3">
+                          Replies
+                        </h6>
+                      </div>
+
+                    </div>
+                  `
+    $('#comments').append(html);
+    addAttributesInCommentSpan(comment);
+    listReplies(comment.replies);
+    editor.startSelectionUpdates();
+  }
+
+  function listComments(data) {
+    for (i = 0; i < data.length; i++) {
+      appendCommentHTML(data[i], i);
+      editor.stopSelectionUpdates();
+      editor.importSelection({
+        start: 0,
+        end: 0
+      })
+      editor.startSelectionUpdates();
+    }
+    if (article_status == 2 && 2 == 3) {
+        // editor.destroy();
+        $('.show-reply-form').hide();
+        // $('#articleTitle').prop('disabled', true);
+        // editor.setup()
+    }
+  }
+
+  function listReplies(replies) {
+    if (replies) {
+      for (j = 0; j < replies.length; j++) {
+        addReply(replies[j], replies[j].comment_id);
+      }
+    }
+  }
+
+  function CommentExtension() {
+    this.button = document.createElement('button');
+    this.button.className = 'medium-editor-action';
+    this.button.innerText = 'Add Comment';
+    this.button.onclick = this.onClick.bind(this);
+  }
+
+  CommentExtension.prototype.getButton = function () {
+    return this.button;
+  };
+
+  CommentExtension.prototype.onClick = function () {
+    globalSelectionState = editor.exportSelection();
+    $('#commentModal').modal('show');
+  };
+
+  var editor = new MediumEditor('.editable', {
+    // disableEditing: 2 == 3,
+    buttonLabels: 'fontawesome',
+    toolbar: {
+      buttons: ['bold', 'italic', 'underline', 'strikethrough','subscript','superscript','anchor', 'h2', 'quote',
+      {
+        name: 'pre',
+        action: 'append-pre',
+        aria: 'Code & Preformatted Text',
+        tagNames: ['pre','code'],
+        contentDefault: '<b>Code</b>',
+        contentFA: '<b>Code</b>',
+        attrs: {
+          'data-custom-attr': 'attr-value-pre'
+      }
+    },
+      'comment', 'orderedlist', 'unorderedlist','indent','outdent','removeFormat', 'table'],
+      autoLink: true,
+      imageDragging: true,
+    },
+    anchor: {
+        placeholderText: 'Type a link',
+        customClassOption: 'btn',
+        customClassOptionText: 'Create Button',
+        showWhenToolbarIsVisible: true,
+        targetCheckbox: true,
+        targetCheckboxText: 'Open in new window',
+
+    },
+    paste: {
+       forcePlainText: true,
+       cleanPastedHTML: true,
+       cleanReplacements: [],
+       cleanAttrs: ['class', 'style', 'dir' , 'size'],
+       cleanTags: ['meta'],
+       unwrapTags: []
+   },
+    extensions: {
+      comment: new CommentExtension(),
+      table: new MediumEditorTable()
+    }
+  });
+
+  $('.addComment').click(function () {
+    let comment = $('#commentInput').val();
+    if (!globalSelectionState) {
+      $('#commentInput').val('');
+      $('#commentModal').modal('hide');
+      return;
+    }
+    comment = {
+      comment,
+      start_index: globalSelectionState.start,
+      end_index: globalSelectionState.end,
+      article_id: article_id
+    }
+    postCommentToServer(comment);
+    globalSelectionState = null;
+  })
+
+$('preview-btn').click(function() {
+  var href = $(this).attr('href');
+  event.preventDefault();
+  saveDraft();
+  window.location = href;
+});
+
+  $('.nav-link').click(function() {
+    var href = $(this).attr('href');
+    event.preventDefault();
+    saveDraft();
+    window.location = href;
+  });
+  $('#saveDraft').click(function() {
+    saveDraft();
+  });
+
+  $('#submitForRevision').click(function() {
+    submitForRevision();
+  });
+
+  $(document).ready(function () {
+    article_id = getQueryStringValue("article_id");
+    if (article_id) {
+      getArticle(article_id);
+    } else {
+      $('.editable').mediumInsert({
+        editor: editor,
+        addons: {
+          embeds: {
+                    label: '<span class="fa fa-code"></span>'
+                  }
+        }
+      });
+      editor.subscribe('editableInput', MediumEditor.util.throttle(saveDraft, 5000));
+    }
+    $('.toast2').toast({ autohide: true, delay: 1000, animation: true})
+    $('.toast').toast({ autohide: true, delay: 1000, animation: true})
+  });
+
+  var currentDiv = '';
+
+  $(document).on('click', 'div.comment', function () {
+    editor.stopSelectionUpdates();
+    currentDiv = Number($(this).data('id'));
+    var position = $(this).position().top;
+    // var comment = comments.find(c => c.id === currentDiv);
+    // var top = getSelectionPostion({
+    //  start: comment.start_index,
+    //  end: comment.end_index
+    // });
+    $('#spancomment' + currentDiv)[0].scrollIntoView({
+      behavior: 'smooth',
+      block: 'end',
+      inline: 'nearest'
+    });
+    var top = getPositionForComment(currentDiv);
+    top = top - position;
+    $('#comments').animate({
+      top: top
+    });
+    $(this).animate({
+      left: -10
+    });
+    $(this).addClass('shadow-pulse');
+    $('#spancomment' + currentDiv).addClass('dark-highlite');
+    editor.startSelectionUpdates();
+  })
+
+  $(document).on('click', '.show-replies', function (event) {
+      event.stopPropagation();
+    var id = $(this).data('id');
+    $('#comment' + id).children('.replies').toggle('fast');
+    // event.preventDefault();
+    // $(this).siblings('.reply-form').toggle('fast');
+  })
+
+  $(document).on('click', '.show-reply-form', function (event) {
+      event.stopPropagation();
+    var id = $(this).data('id');
+    $('#demo' + id).toggle('fast');
+
+  })
+
+  $(document).on('click', '.submit-reply', function (event) {
+      event.stopPropagation();
+    var commentId = $(this).data('id');
+    var reply = $('#replyinput' + commentId).val();
+    postReplyToServer({
+      reply: reply,
+      comment_id: commentId
+    })
+    $('#replyinput' + commentId).val('');
+  })
+
+  $(document).on('click', '.resolve-comment', function (event) {
+      event.stopPropagation();
+      var commentId = $(this).data('id');
+      resolveComment(commentId);
+  })
+
+  function reverseAnimateCommentDiv(container) {
+    container.removeClass('shadow-pulse');
+    container.animate({
+      left: 0
+    });
+    $('#spancomment' + container.data('id')).removeClass('dark-highlite');
+  }
+
+  $(document).mouseup(function (event) {
+    if (!currentDiv) {
+      return;
+    }
+    var container = $('#comment' + currentDiv);
+    var span = $('#spancomment' + currentDiv);
+    if ((!container.is(event.target) && container.has(event.target).length === 0) && (!span.is(event.target) && span
+        .has(event.target))) {
+      reverseAnimateCommentDiv(container);
+      currentDiv = null;
+      editor.startSelectionUpdates();
+    }
+  })
+
+  var prevHeight = $('#editor').height();
+
+  document.onselectionchange = function () {
+    if (editor.preventSelectionUpdates) {
+      return;
+    }
+    var element = editor.getSelectedParentElement();
+    if (!element) {
+      return;
+    }
+    if ($('#editor').height() - window.scrollY > 500 && $('#editor').height() > prevHeight) {
+      $('html').animate({
+        scrollTop: window.scrollY + 100
+      }, 100);
+      prevHeight = $('#editor').height();
+    }
+    if (!$(element).hasClass('comment-highlite')) {
+      if (currentDiv) {
+        reverseAnimateCommentDiv($('#comment' + currentDiv));
+        currentDiv = null;
+      }
+      return;
+    }
+    var commentId = Number($(element).data('commentid'))
+    if (!commentId) {
+      if (currentDiv) {
+        reverseAnimateCommentDiv($('#comment' + currentDiv));
+      }
+      currentDiv = null;
+      return;
+    }
+    if (commentId === currentDiv) {
+      return;
+    }
+    if (commentId !== currentDiv) {
+      if (currentDiv) {
+        reverseAnimateCommentDiv($('#comment' + currentDiv));
+      }
+    }
+    var commentDiv = $('#comment' + commentId);
+    var position = commentDiv.position().top;
+    var top = getPositionForComment(commentId);
+    top = top - position;
+    $('#comments').animate({
+      top: top
+    });
+    commentDiv.animate({
+      left: -10
+    });
+    commentDiv.addClass('shadow-pulse');
+    $('#spancomment' + commentId).addClass('dark-highlite');
+    currentDiv = commentId;
+  }
+
+  // Image insert
+
+  $('#imageUpload').click(function () {
+    $('#fileinput').click();
+  })
+
+  $('#fileinput').change(function (event) {
+    Array.prototype.slice.call(event.target.files).forEach(function (file) {
+      var fileReader = new FileReader();
+      fileReader.readAsDataURL(file);
+      fileReader.addEventListener('load', function (e) {
+        var addImageElement = document.createElement('img');
+        addImageElement.src = e.target.result;
+        //console.log(addImageElement);
+        document.execCommand('insertHtml', null, addImageElement.outerHTML);
+      }.bind(this));
+    })
+  })
+
+  $('.side-toolbar-btn').click(function () {
+    $('.side-toolbar').toggle();
+    $(this).toggleClass('active')
+  });
+</script><div id="medium-editor-anchor-preview-1" class="medium-editor-anchor-preview"><div class="medium-editor-toolbar-anchor-preview" id="medium-editor-toolbar-anchor-preview">    <a class="medium-editor-toolbar-anchor-preview-inner"></a></div></div><div id="medium-editor-toolbar-1" class="medium-editor-toolbar medium-editor-stalker-toolbar medium-toolbar-arrow-under" style="left: 0px; right: initial; top: 378.484px;"><ul id="medium-editor-toolbar-actions1" class="medium-editor-toolbar-actions" style="display: block;"><li><button class="medium-editor-action medium-editor-action-bold medium-editor-button-first" data-action="bold" title="bold" aria-label="bold"><i class="fa fa-bold"></i></button></li><li><button class="medium-editor-action medium-editor-action-italic" data-action="italic" title="italic" aria-label="italic"><i class="fa fa-italic"></i></button></li><li><button class="medium-editor-action medium-editor-action-underline" data-action="underline" title="underline" aria-label="underline"><i class="fa fa-underline"></i></button></li><li><button class="medium-editor-action medium-editor-action-strikethrough" data-action="strikethrough" title="strike through" aria-label="strike through"><i class="fa fa-strikethrough"></i></button></li><li><button class="medium-editor-action medium-editor-action-subscript" data-action="subscript" title="subscript" aria-label="subscript"><i class="fa fa-subscript"></i></button></li><li><button class="medium-editor-action medium-editor-action-superscript" data-action="superscript" title="superscript" aria-label="superscript"><i class="fa fa-superscript"></i></button></li><li><button class="medium-editor-action medium-editor-action-anchor" data-action="createLink" title="link" aria-label="link"><i class="fa fa-link"></i></button></li><li><button class="medium-editor-action medium-editor-action-h2" data-action="append-h2" title="header type two" aria-label="header type two"><i class="fa fa-header"><sup>2</sup></i></button></li><li><button class="medium-editor-action medium-editor-action-quote" data-action="append-blockquote" title="blockquote" aria-label="blockquote"><i class="fa fa-quote-right"></i></button></li><li><button class="medium-editor-action medium-editor-action-pre" data-action="append-pre" title="Code &amp; Preformatted Text" aria-label="Code &amp; Preformatted Text" data-custom-attr="attr-value-pre"><b>Code</b></button></li><li><button class="medium-editor-action">Add Comment</button></li><li><button class="medium-editor-action medium-editor-action-orderedlist" data-action="insertorderedlist" title="ordered list" aria-label="ordered list"><i class="fa fa-list-ol"></i></button></li><li><button class="medium-editor-action medium-editor-action-unorderedlist" data-action="insertunorderedlist" title="unordered list" aria-label="unordered list"><i class="fa fa-list-ul"></i></button></li><li><button class="medium-editor-action medium-editor-action-indent" data-action="indent" title="indent" aria-label="indent"><i class="fa fa-indent"></i></button></li><li><button class="medium-editor-action medium-editor-action-outdent" data-action="outdent" title="outdent" aria-label="outdent"><i class="fa fa-outdent"></i></button></li><li><button class="medium-editor-action medium-editor-action-removeFormat" data-action="removeFormat" title="remove formatting" aria-label="remove formatting"><i class="fa fa-eraser"></i></button></li><li><button class="medium-editor-action medium-editor-action-table medium-editor-button-last" data-action="table" title="create table" aria-label="create table"><i class="fa fa-table"></i></button></li></ul><div class="medium-editor-table-builder"><div class="medium-editor-table-builder-toolbar"><span>Row:</span><button title="Add row before"><i class="fa fa-long-arrow-up"></i></button><button title="Add row after"><i class="fa fa-long-arrow-down"></i></button><button title="Remove row"><i class="fa fa-close"></i></button><span>Column:</span><button title="Add column before"><i class="fa fa-long-arrow-left"></i></button><button title="Add column after"><i class="fa fa-long-arrow-right"></i></button><button title="Remove column"><i class="fa fa-close"></i></button><button title="Remove table"><i class="fa fa-trash-o"></i></button></div><div class="medium-editor-table-builder-grid clearfix" style="width:162px;height:162px;"><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="0" data-column="0"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="0" data-column="1"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="0" data-column="2"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="0" data-column="3"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="0" data-column="4"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="0" data-column="5"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="0" data-column="6"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="0" data-column="7"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="0" data-column="8"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="0" data-column="9"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="1" data-column="0"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="1" data-column="1"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="1" data-column="2"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="1" data-column="3"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="1" data-column="4"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="1" data-column="5"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="1" data-column="6"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="1" data-column="7"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="1" data-column="8"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="1" data-column="9"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="2" data-column="0"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="2" data-column="1"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="2" data-column="2"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="2" data-column="3"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="2" data-column="4"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="2" data-column="5"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="2" data-column="6"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="2" data-column="7"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="2" data-column="8"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="2" data-column="9"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="3" data-column="0"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="3" data-column="1"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="3" data-column="2"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="3" data-column="3"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="3" data-column="4"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="3" data-column="5"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="3" data-column="6"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="3" data-column="7"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="3" data-column="8"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="3" data-column="9"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="4" data-column="0"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="4" data-column="1"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="4" data-column="2"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="4" data-column="3"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="4" data-column="4"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="4" data-column="5"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="4" data-column="6"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="4" data-column="7"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="4" data-column="8"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="4" data-column="9"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="5" data-column="0"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="5" data-column="1"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="5" data-column="2"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="5" data-column="3"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="5" data-column="4"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="5" data-column="5"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="5" data-column="6"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="5" data-column="7"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="5" data-column="8"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="5" data-column="9"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="6" data-column="0"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="6" data-column="1"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="6" data-column="2"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="6" data-column="3"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="6" data-column="4"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="6" data-column="5"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="6" data-column="6"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="6" data-column="7"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="6" data-column="8"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="6" data-column="9"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="7" data-column="0"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="7" data-column="1"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="7" data-column="2"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="7" data-column="3"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="7" data-column="4"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="7" data-column="5"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="7" data-column="6"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="7" data-column="7"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="7" data-column="8"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="7" data-column="9"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="8" data-column="0"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="8" data-column="1"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="8" data-column="2"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="8" data-column="3"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="8" data-column="4"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="8" data-column="5"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="8" data-column="6"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="8" data-column="7"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="8" data-column="8"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="8" data-column="9"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="9" data-column="0"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="9" data-column="1"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="9" data-column="2"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="9" data-column="3"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="9" data-column="4"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="9" data-column="5"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="9" data-column="6"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="9" data-column="7"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="9" data-column="8"></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-table-builder-cell" data-row="9" data-column="9"></a></div></div><div class="medium-editor-toolbar-form" id="medium-editor-toolbar-form-anchor-1"><input type="text" class="medium-editor-toolbar-input" placeholder="Type a link"><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-toolbar-save"><i class="fa fa-check"></i></a><a href="https://editor.analyticsvidhya.com/write-article?article_id=31083#" class="medium-editor-toolbar-close"><i class="fa fa-times"></i></a><div class="medium-editor-toolbar-form-row"><input type="checkbox" class="medium-editor-toolbar-anchor-target" id="medium-editor-toolbar-anchor-target-field-1"><label for="medium-editor-toolbar-anchor-target-field-1">Open in new window</label></div><div class="medium-editor-toolbar-form-row"><input type="checkbox" class="medium-editor-toolbar-anchor-button"><label>Create Button</label></div></div></div>
+<script>
+$(document).ready(function(){
+
+    $('#dropdownLoginMenu').click(function(e) {
+        e.preventDefault();
+        $('.dropdown-menu-right').toggleClass('show')
+    })
+
+    $('#add-category').on('submit',function(e){
+        var category = $('#category').val();
+        var article_id1 = $('#article_id').val();
+        if (article_id) {
+              data = {
+                category: category,
+                article_id: article_id
+              }
+        } else {
+            data = {
+                category: category,
+                article_id: article_id1
+            }
+        }
+        e.preventDefault();
+        $.ajax({
+            url: 'category-action.php?article_id=31083', // point to server-side PHP script
+            data: data,
+            type: 'post',
+            success: function(data){
+                // c/onsole.log(data);
+                var obj = jQuery.parseJSON(data );
+                article_id = obj.article_id;
+                if(obj.category){
+                    $('#cat2').append('<a href="delete-category?article_id='+ article_id +'&category_id='+ obj.category_id +'" class="btn av-btn av-tag-btn">'+ obj.category +' <span class="cross">x</span></a>');
+
+                }
+                //alert(obj.message);
+
+
+                //$('#myModal').modal('toggle');
+                $('div').removeClass('modal-backdrop');
+                return false;
+            },
+            error: function(textStatus,errorThrown) {
+              console.log('failed');
+            }
+        });
+    });
+});
+</script>
+<script>
+$('.submitForRevision').click(function() {
+    var article_id = 31083;
+      var review;     var status_id;     $.ajax({
+        type: "POST",
+        url: "submit-review",
+        data: {review:review,article_id:article_id,status_id:status_id},
+        success: function (data) {
+            // alert(data);
+            location.reload();
+            // console.log(data);
+        },
+        error: function (e) {
+            $("#result").text(e.responseText);
+            console.log("ERROR : ", e);
+            $("#btnSubmit").prop("disabled", false);
+        }
+    });
+});
+</script>
+<script>
+dataLayer.push({
+   "event": "datalayer_click",
+   "user_logged_in": "true",
+   "user_email": "tiwari11.rst@gmail.com",
+   "username": "ravi_shekhar",
+   "utm_source": "",
+   "utm_medium": "",
+   "utm_campaign": ""
+});
+</script>
+<script defer="" src="./write-article_files/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon="{&quot;rayId&quot;:&quot;74ec594d9852321e&quot;,&quot;token&quot;:&quot;6dc69ea2ec65420db26006e7a2ffc709&quot;,&quot;version&quot;:&quot;2022.8.1&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" async="" src="./write-article_files/webengage-min-v-6.0.js"></script><script type="text/javascript" id="_webengage_script_tag">var webengage;
+!function(a,k,b,e,l){function h(f,g){f[g[g.length-1]]=function(){c.__queue.push([g.join("."),arguments])}}var c=a[b],d=" ",m="init options track screen onReady".split(d);e="feedback survey notification".split(d);l="options render clear abort".split(d);var n="Open Close Submit Complete View Click".split(d);d="identify login logout setAttribute".split(d);if(!c||!c.__v){a[b]=c={__queue:[],__v:"6.0",user:{}};for(a=0;a<m.length;a++)h(c,[m[a]]);for(a=0;a<e.length;a++){c[e[a]]={};for(b=0;b<l.length;b++)h(c[e[a]],
+[e[a],l[b]]);for(b=0;b<n.length;b++)h(c[e[a]],[e[a],"on"+n[b]])}for(a=0;a<d.length;a++)h(c.user,["user",d[a]]);setTimeout(function(){var f=k.createElement("script"),g=k.getElementById("_webengage_script_tag");f.type="text/javascript";f.async=!0;f.src=("https:"==k.location.protocol?"https://ssl.widgets.webengage.com":"http://cdn.widgets.webengage.com")+"/js/webengage-min-v-6.0.js";g.parentNode.insertBefore(f,g)})}}(window,document,"webengage");webengage.init("82617822");</script>
+
+<script type="text/javascript" id="">webengage.track("Page Load",{"Page URL":google_tag_manager["GTM-MPSM42V"].macro(3)});</script>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","460122458602021");fbq("set","agent","tmgoogletagmanager","460122458602021");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=460122458602021&amp;ev=PageView&amp;noscript=1"></noscript>
+<script type="text/javascript" id="">fbq("track","PageView");</script><script type="text/javascript" id="">void 0!=google_tag_manager["GTM-MPSM42V"].macro(5)&&(webengage.user.login(google_tag_manager["GTM-MPSM42V"].macro(6)),webengage.user.setAttribute("we_email",google_tag_manager["GTM-MPSM42V"].macro(7)));void 0!=google_tag_manager["GTM-MPSM42V"].macro(8)&&""!=google_tag_manager["GTM-MPSM42V"].macro(9)&&(webengage.user.login(google_tag_manager["GTM-MPSM42V"].macro(10)),webengage.user.setAttribute("we_email",google_tag_manager["GTM-MPSM42V"].macro(11)));void 0!=google_tag_manager["GTM-MPSM42V"].macro(12)&&(webengage.user.login(google_tag_manager["GTM-MPSM42V"].macro(13)),webengage.user.setAttribute("we_email",google_tag_manager["GTM-MPSM42V"].macro(14)));
+void 0!=google_tag_manager["GTM-MPSM42V"].macro(15)&&(webengage.user.login(google_tag_manager["GTM-MPSM42V"].macro(16)),webengage.user.setAttribute("we_email",google_tag_manager["GTM-MPSM42V"].macro(17)));void 0!=google_tag_manager["GTM-MPSM42V"].macro(18)&&(webengage.user.login(google_tag_manager["GTM-MPSM42V"].macro(19)),webengage.user.setAttribute("we_email",google_tag_manager["GTM-MPSM42V"].macro(20)));
+void 0!=google_tag_manager["GTM-MPSM42V"].macro(21)&&(webengage.user.login(google_tag_manager["GTM-MPSM42V"].macro(22)),webengage.user.setAttribute("we_email",google_tag_manager["GTM-MPSM42V"].macro(23)),webengage.track("User on Profile platform",{"Page Url":google_tag_manager["GTM-MPSM42V"].macro(24),email:google_tag_manager["GTM-MPSM42V"].macro(25)}));</script>
+<webengagedata><style type="text/css">#webklipper-publisher-widget-container, #webklipper-publisher-widget-container * {overflow:visible; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;  box-sizing: content-box; margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}</style><div id="webklipper-publisher-widget-container"><iframe title="webengage-engagement-callback-frame" name="webengage-engagement-callback-frame" id="webengage-engagement-callback-frame" frameborder="0" marginheight="0" marginwidth="0" style="position: absolute; background-color: transparent; bottom: 0px; right: 0px; border: none; overflow: hidden; visibility: hidden; display: none;" src="./write-article_files/saved_resource.html"></iframe><iframe title="_we_wk_data_store" name="_we_wk_data_store" id="_we_wk_data_store" frameborder="0" marginheight="0" marginwidth="0" src="./write-article_files/storage-frame-1.18.html" style="position: absolute; background-color: transparent; bottom: 0px; right: 0px; border: none; overflow: hidden; visibility: hidden; display: none;"></iframe><script type="text/javascript" charset="UTF-8" async="" src="./write-article_files/d8h61gh.js"></script><script type="text/javascript" charset="UTF-8" async="" src="./write-article_files/_a61h7a0.js"></script></div></webengagedata><iframe class="hs-iframe hidden" src="./write-article_files/saved_resource(1).html"></iframe><div class="hs-iframe-controls hidden"></div><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="./write-article_files/box-69edcc3187336f9b0a3fbb4c73be9fe6.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><iframe id="_hjSafeContext_29243403" src="./write-article_files/saved_resource(2).html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe></body></html>
